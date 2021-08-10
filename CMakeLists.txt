@@ -14,8 +14,8 @@ else()
   message(FATAL_ERROR "Not an supported compiler!! ${CMAKE_C_COMPILER_ID}")    
 endif()
 
-set(CC26XXWARE_DIR "cc26xxware_2_24_03_17272")
-set(CC13XXWARE_DIR "cc13xxware_2_04_03_17272")
+set(CC26XXWARE_DIR "cc26xxware")
+set(CC13XXWARE_DIR "cc13xxware")
 
 file(GLOB_RECURSE CC26XXWARE_SRCS
     "${CC26XXWARE_DIR}/driverlib/*.c"
